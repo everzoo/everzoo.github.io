@@ -6,7 +6,7 @@ export default function App() {
     <Flex justify="center" h={"100%"} w={"100%"} ff="monospace" bg="#e0e9ac" c="black">
       <Center flex="grow">
         <Stack align="center" justify="center">
-          <Title order={1} fz={60} ff="Righteous" style={{ "letter-spacing": "0.5rem" }} pb={100}>
+          <Title order={1} fz={60} ff="Righteous" style={{ "letterSpacing": "0.5rem" }} pb={100}>
             everzoo
           </Title>
 
