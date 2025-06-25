@@ -22,7 +22,13 @@ export default function App() {
 
               <Stack gap={0}>
                 <Title order={2} ff="monospace" fw="bold">
-                  <Anchor c="black" td="underline" href="https://sentinowl.com">Sentinowl</Anchor>
+                  <Anchor
+                    c="black"
+                    td="underline"
+                    href="https://sentinowl.com"
+                    data-umami-event="sentinowl-link">
+                    Sentinowl
+                  </Anchor>
                 </Title>
 
                 <Text>
